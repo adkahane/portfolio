@@ -1,0 +1,13 @@
+/* container styles */
+
+#topContainer {
+  text-align: center;
+  padding-top: 200px;
+  margin: 0;
+  height: 800px;
+  width: 100%;
+  color: #87cefa;
+  background-image: url("../images/topConBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
