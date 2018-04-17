@@ -6,41 +6,46 @@
   <title>Adam Kahane Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
   <!-- <script src="css/main.js"></script> -->
 </head>
 <body>
-  <div class="row">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light border-bottom border-grey">
-      <a class="navbar-brand" href="#">Adam Kahane</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#myStory">My Story</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume/Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact me</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <div class="row" id="topContainer">
+
+  <!-- Navbar -->
+  <div class="row" id="navhead">
     <div class="col-12">
-      <h1>Full Stack Developer</h1>
-      <h1>Oakland, CA</h1>
+    <a href="index.html" id="myname">Adam Kahane</a>
+		<nav>
+      <u><a href="#">About Me</a></u>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+    </div>
+	</div>
+  
+  <!-- Header image section -->
+  <div class="row topContainer">
+    <div class="col-12">
+      <h1>Full Stack Developer<br/><br/>Oakland, CA<br/></h1>
+      <a href="https://github.com/adkahane" target="_blank"><img src="images/githubicon.png" class="connect" alt="GitHub" /></a>
+			<a href="https://www.linkedin.com/in/adam-kahane-70a291b0/" target="_blank"><img src="images/linkedinicon.png" class="connect" alt="LinkedIn" /></a>
+			<!-- <a href="https://stackoverflow.com/users/9185226/adam-kahane?tab=profile" target="_blank"><img src="#" class="connectStack" alt="Stack Overflow"></a> -->
+    </div>
+  </div>
+  
+  <!-- About me section -->
+  <div class="row">
+    <div class="col aboutMe">
+    <h1>About Me</h1>
+			<div class ="meImage">
+				<img src="images/me.jpg" alt="this is me" height="200" width="200">
+			</div>
+			<p>
+				My name is Adam Kahane and I am a web developer in training. I was born in Cape May, NJ USA in 1985. Some of my hobbies include playing guitar and drums, modding and restoring vintage Nintendo Gameboy systems and studying martial arts. I am a blue belt in Brazilian Jiu Jitsu and I love how it offers an opportunity to learn something new and have new riddles to solve every day you train.
+			</p>
+			<p>
+				I am currently enrolled in the Berkeley Coding Bootcamp at Berkeley Extensions.  It is very difficult, but I hope to leverage the skills that I learn here into a future job in software/web development.
+			</p>
     </div>
   </div>
 </body>
