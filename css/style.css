@@ -1,99 +1,27 @@
-/* Fonts */
-
-h1, h2, h3, h5, p {
-	margin-bottom: 20px;
-}
-
-h5 {
-	color: #ccc;
-}
-
-h1, h2, h3 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: bold;
-	color: lightskyblue;
-}
-
-h1 {
-	padding-bottom: 20px;
-	font-size: 50px;
-	line-height: 49px;
-}
-
-h2, h3 {
-	font-size: 22px;
-}
-
-.aboutMe p {
-	font-size: 16px;
-}
-
-/* container styles */
-
-.row{
-  margin: 0;
-}
-
-/* Header */
-
-#navhead {
-	position: fixed;
-	z-index: 99;
-	width: 100%;
-	background-color: #fff;
-	color: #fff;
-	border-bottom: 2px solid #ccc;
-	overflow: auto;
-}
-
-#myName {
-	float: left;
-	width: 250px;
-	height: 90px;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 30px;
-	font-weight: 700;
-	line-height: 90px;
-	color: rgb(0, 0, 0);
-	text-align: center;
-	text-decoration: none;
-}
-
-nav a {
-	text-decoration: none;
-	color: #999;
-	padding: 0 10px;
-	text-decoration: none;
-	line-height: 18px;
-	border-right: 1px solid #efefef;
-}
-
-nav {
-	float: right;
-	margin-top: 25px;
-	margin-right: 30px;	
-}
-
-/* Main */
 
 body {
-	font-size: 18px;
-	line-height: 34px;
-	color: #777;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 18px;
 }
 
-.topContainer {
-  text-align: center;
-  padding-top: 200px;
-  margin: 0;
-  height: 800px;
-  width: 100%;
-  color: #87cefa;
-  background-image: url("../images/topConBackground.jpg");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+#skills  p {
+  color: #bbbe50;
+  line-height: 2;
+}
+
+/* Top navbar styling */
+.navbar {
+  background-color: white;
+}
+
+.navbar li {
+  padding: 0 15px;
+  font-size: 30px
+}
+
+#navbarNavAltMarkup {
+  margin-left: 70px;
 }
 
 .connect {
@@ -103,22 +31,89 @@ body {
 	margin-right: 30px;
 }
 
-.aboutMe {
-  float: left;
-	background-color: #fff;
-	/* border: 1px solid #ddd; */
-	width: 100%;
-	max-width: 50%;
-	padding: 30px;
-	margin-top: 30px;
+/* Div with my statement */
+#aboutMe {
+  margin-top: 210px;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: start;
+  font-size: 18px;
+  /* font-weight: bold; */
+  color: white;
+  width: 100%;
+  max-height: 375px;
+  min-height: 300px;
+  background-color: #3c4d99;
+  
 }
 
-.aboutRow {
-	
-}
-
+/* Image of Me */
 .meImage {
 	float: left;
 	padding: 0 20px 0px 0;
-	margin-top: 10px;
+  margin-top: 20px; 
+}
+
+#husky {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* margin-left: 250px; */
+}
+
+#skills {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#projects {
+  margin-top: 20px;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+.card-text {
+  margin: 20px 80px;
+}
+
+#trainingCard {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  width:90%;
+  margin: 50px 50px;
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#whatPeopleSay {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+/* Instagram */
+
+#contact {
+  text-align: left;
+  font-size: 16px;
+}
+
+#footer {
+  max-width: 100%;
+  width:100%;
+  background-color: grey;
+  position: relative;
+  bottom: 0;
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-top: 30px;
+  color: white;
+  height: 70px;
+  font-size: 14px;
 }
